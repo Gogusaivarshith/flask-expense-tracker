@@ -1,0 +1,430 @@
+.green-text {
+	color: #4CAF50;
+}
+
+.green {
+	color: #4CAF50;
+}
+
+label {
+	color: #ffffff !important;
+	font-weight: 500;
+	margin-bottom: 8px;
+	display: block;
+}
+
+.navbar {
+	border-bottom: none;
+}
+
+.about {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	margin-top: 20px;
+	border-radius: 15px;
+	padding: 40px;
+	color: white;
+}
+
+.team .cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.team .card {
+	max-width: 540px;
+	height: 350px;
+	background-color: rgba(217, 217, 217, 0.1);
+	border: 2px solid #667eea;
+	border-radius: 12px;
+}
+
+.team .card-1 img {
+	height: 341px;
+	width: 275px;
+}
+
+.team .card-1 .card-text {
+	font-size: 17px;
+	color: #d4d4d4;
+}
+
+.team .card-1 .card-body ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid #667eea;
+}
+
+.team .card-1 .card-body ul li i {
+	font-size: 30px;
+	color: #4CAF50;
+}
+
+.team .card-2 img {
+	height: 341px;
+	width: 267px;
+}
+
+.team .card-2 .card-text {
+	font-size: 17px;
+	color: #d4d4d4;
+}
+
+.team .card-2 .card-body ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid #667eea;
+}
+
+.team .card-2 .card-body ul li i {
+	font-size: 30px;
+	color: #4CAF50;
+}
+
+.history {
+	margin-top: 25px;
+	background: rgba(102, 126, 234, 0.1);
+	padding: 20px;
+	border-radius: 12px;
+	border: 1px solid #667eea;
+}
+
+.history .info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.history .select-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+
+.history .month .pie_chart{
+	margin-left: 10px;
+	margin-bottom: 5px;
+	background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+	border: none;
+	color: white;
+}
+.history .month .bar_chart{
+	margin-right: 10px;
+	margin-bottom: 5px;
+	background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+	border: none;
+	color: white;
+}
+.history .month .line_chart{
+	margin-right: 10px;
+	margin-bottom: 5px;
+	background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+	border: none;
+	color: white;
+}
+
+.history .select-list .month {
+	margin-left: 45px;
+}
+
+.history .swipe {
+	visibility: hidden;
+}
+
+.history .table tr {
+	font-size: 1.1rem;
+	color: #d4d4d4;
+}
+
+.history .table tr th {
+	border-top: 1px solid #667eea;
+	color: #4CAF50;
+	font-weight: bold;
+}
+
+.history .table tr td {
+	border-top: 1px solid rgba(102, 126, 234, 0.3);
+}
+
+.add {
+	background: rgba(102, 126, 234, 0.05);
+	padding: 20px;
+	border-radius: 12px;
+	border: 1px solid #667eea;
+}
+
+.add .current-month .pie_chart{
+	margin-left: 10px;
+	margin-bottom: 5px;
+	background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+	border: none;
+	color: white;
+}
+.add .current-month .bar_chart{
+	margin-right: 10px;
+	margin-bottom: 5px;
+	background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+	border: none;
+	color: white;
+}
+.add .current-month .line_chart{
+	margin-right: 10px;
+	margin-bottom: 5px;
+	background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+	border: none;
+	color: white;
+}
+
+.add .swipe {
+	visibility: hidden;
+}
+
+.add h2 {
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	font-weight: bold;
+}
+.add .form .btn {
+	padding-top: 0px;
+	height: 38px;
+	background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+	border: none;
+	color: white;
+}
+
+.add .form-control {
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid #667eea;
+	color: white;
+}
+
+.add .form-control::placeholder {
+	color: #a0a0a0;
+}
+
+.form-control {
+	background: rgba(255, 255, 255, 0.1) !important;
+	border: 1px solid #667eea !important;
+	color: #ffffff !important;
+}
+
+.form-control::placeholder {
+	color: #b0b0b0 !important;
+}
+
+.form-control:focus {
+	background-color: rgba(255, 255, 255, 0.15);
+	border-color: #4CAF50;
+	color: white;
+	box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
+}
+
+.login .enter{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+
+.login .enter .forgot{
+	margin: 10px;
+}
+
+.btn-primary {
+	background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+	border: none;
+}
+
+.btn-primary:hover {
+	background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+	box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(102, 126, 234, 0.05);
+}
+
+.login .enter .submit{
+	font-size: 1.2rem;
+}
+
+.login .enter .forgot .link:hover{
+	color: #bada55;
+}
+
+.login .account {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.2rem;
+	padding-top: 15px;
+}
+
+.login .account a {
+	padding-left: 10px;
+}
+
+.signUp h2 {
+	margin-top: 20px;
+}
+
+.signUp .account {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.signUp .account a {
+	padding-left: 10px;
+}
+
+.hover:hover {
+	color: #bada55;
+}
+
+@media only screen and (max-width: 500px) {
+	.history .select-list .month {
+		margin-left: 0px;
+	}
+	.history .month{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.history .month .pie_chart{
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}
+	.history .month .bar_chart{
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.history .month .line_chart{
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.history .swipe {
+		visibility: visible;
+		font-size: 1rem;
+	}
+	.add .swipe {
+		visibility: visible;
+		font-size: 1rem;
+	}
+	.team .card-1 .card-body {
+		visibility: hidden;
+	}
+	.team .card-2 .card-body {
+		visibility: hidden;
+	}
+	.login .account {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		text-align: center;
+		font-size: 1rem;
+	}
+	.login .enter{
+		display: block;
+	}
+	.add .current-month{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.add .current-month .pie_chart{
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}
+	.add .current-month .bar_chart{
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}	
+	.add .current-month .line_chart{
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.history .select-list .month {
+		margin-left: 0px;
+	}
+	.history .month{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.history .month .pie_chart{
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}
+	.history .month .bar_chart{
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.history .month .line_chart{
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.history .swipe {
+		visibility: visible;
+		font-size: 1rem;
+	}
+	.add .swipe {
+		visibility: visible;
+		font-size: 1rem;
+	}
+	.team .card-1 .card-body {
+		visibility: hidden;
+	}
+	.team .card-2 .card-body {
+		visibility: hidden;
+	}
+	.login .account {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		text-align: center;
+		font-size: 1rem;
+	}
+	.login .enter{
+		display: block;
+	}
+	.add .current-month{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.add .current-month .pie_chart{
+		margin-bottom: 10px;
+		margin-left: 0px;
+	}
+	.add .current-month .bar_chart{
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+	.add .current-month .line_chart{
+		margin-bottom: 10px;
+		margin-right: 0px;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	.add .form .btn {
+		padding-top: 0px;
+		font-size: 0.85rem;
+	}
+}
